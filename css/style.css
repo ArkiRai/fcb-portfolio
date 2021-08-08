@@ -2,6 +2,7 @@
 
 	font-family: 'Roboto', sans-serif;
 
+
 }
 
 h1,
@@ -15,4 +16,25 @@ img{
 
 	width: 500px;
 	border-radius: 50%;
+}
+
+ul{
+
+	list-style: none;
+}
+
+#landing,
+#gallery{
+
+	height: 80vh;
+	/*center the elements vertically*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#gallery{
+
+	border-radius: .3rem;
 }

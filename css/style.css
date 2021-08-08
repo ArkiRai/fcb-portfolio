@@ -14,7 +14,7 @@ h2{
 
 img{
 
-	width: 500px;
+	width: 350px;
 	border-radius: 50%;
 }
 
@@ -58,4 +58,9 @@ h2{
 html{
 
 	scroll-behavior: smooth;
+}
+
+#container{
+
+	margin-top: 200px;
 }
